@@ -163,10 +163,10 @@ public class DrawArea extends JPanel implements ActionListener {
 
     if (ghostImg != null) {
         switch (ghostType) {
-            case 5:
+            case 4:
                 newGhost = new KYSpeed(ghostImg, getWidth(), yPosition, Gwidth, Gheight);
                 break;
-            case 6:
+            case 5:
                 newGhost = new Crow(ghostImg, getWidth(), yPosition, Gwidth, Gheight);
                 break;
             default:
